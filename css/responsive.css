@@ -211,6 +211,7 @@
     }
 
     .navigation .mobile-menu-btn {
+        display: initial;
         font-size: 2.5rem;
     }
 
@@ -221,6 +222,21 @@
     .mobile-nav i{
         font-size: 2rem;
         color: var(--font-light1);
+    }
+
+    /* SEARCH OR BOOK */
+
+
+    .search-book-form i, .search-byAdd, .search-byAdd::placeholder{
+        font-size: 1.5rem;
+    }
+
+    .appointment{
+        display: none;
+    }
+
+    .search-book .mobile-menu-btn2{
+        font-size: 2rem;
     }
 
     /* MARKETING PLAN */
@@ -420,6 +436,65 @@
         font-size: 1.5rem;
     }
 
+    /* SEARCH/ BOOK */
+
+    .search-book-form i, .search-byAdd, .search-byAdd::placeholder{
+        font-size: 1.2rem;
+    }
+
+    .search-wrapper{
+        width: 80%;
+    }
+
+    .search-book-form{
+        width: 80%;
+    }
+    .appointment{
+        display: none;
+    }
+
+    .appointment-mobile{
+        display: initial;
+        color: rgb(216, 216, 216);
+    }
+
+    .appointment-mobile i{
+        font-size: 1.5rem;
+    }
+
+    .search-book .mobile-menu-btn2{
+        font-size: 1.5rem;
+    }
+    
+
+    /* COMPANY PROFILE */
+
+    .company-profile h2{
+        font-size: 1.5rem;
+    }
+
+    .content-container h3{
+        font-size: 1.2rem;
+    }
+
+    /* MARKETING STRATEGY */
+
+    .marketing-strategy h2{
+        font-size: 1.5rem;
+    }
+
+    .marketing-strategy h3{
+        font-size: 1.2rem;
+    }
+
+    .offer h3{
+        font-size: 1.2rem;
+    }
+
+    .offer p{
+        font-size: 1rem;
+    }
+
     /* MARKETING PLAN */
 
     .marketing-plan h2{
@@ -452,57 +527,6 @@
 
     .logo-container{
         width: 10rem;
-    }
-
-    
-    /* SEARCH/ BOOK */
-
-    .search-wrapper{
-        width: 80%;
-    }
-
-    .search-book-form{
-        width: 80%;
-    }
-    .appointment{
-        display: none;
-    }
-
-    .appointment-mobile{
-        display: initial;
-        color: rgb(216, 216, 216);
-    }
-
-    .appointment-mobile i{
-        font-size: 1.5rem;
-    }
-
-    /* COMPANY PROFILE */
-
-    .company-profile h2{
-        font-size: 1.5rem;
-    }
-
-    .content-container h3{
-        font-size: 1.2rem;
-    }
-
-    /* MARKETING STRATEGY */
-
-    .marketing-strategy h2{
-        font-size: 1.5rem;
-    }
-
-    .marketing-strategy h3{
-        font-size: 1.2rem;
-    }
-
-    .offer h3{
-        font-size: 1.2rem;
-    }
-
-    .offer p{
-        font-size: 1rem;
     }
 
     /* WORK WIH US */
@@ -648,7 +672,19 @@
 @media screen and (max-width: 376px){
 
     .hero{
-        height: 82vh;
+        height: 90vh;
+    }
+
+    /* MOBILE NAV */
+
+    .mobile-nav-links li a, .mobile-nav-links li i{
+        font-size: 1.4rem;
+    }
+
+    /* SEARCH/ BOOK */
+
+    .search-book-form i, .search-byAdd, .search-byAdd::placeholder{
+        font-size: 1rem;
     }
 
     /* MARKETING PLAN */

@@ -144,18 +144,22 @@
     font-size: 1.5rem;
 }
 
+.mobile-nav-links li i{
+    font-size: 1.5rem;
+}
+
 .mobile-nav-links i{
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
 }
 
 .mobile-nav-links li:hover{
     background-color: var(--color2);
 }
 
-.mobile-menu-btn{
+.navigation .mobile-menu-btn{
     font-size: 1.5rem;
     color: var(--font-light1);
-    /* display: none; */
+    display: none;
 }
 
 /* EXIT */
