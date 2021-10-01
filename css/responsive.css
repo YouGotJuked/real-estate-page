@@ -1,0 +1,730 @@
+:root{
+    --color1: rgb(68, 68, 68);
+
+    --font1: rgb(68, 68, 68);
+    --font-light1: #e2e2e2;
+    --font-light2: #b1b1b1;
+    
+}
+
+@media screen and (max-width: 1179px){
+    .navigation .nav-links{
+        flex-wrap: wrap;
+    }
+    .nav-links li{
+        flex-basis: 25%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero{
+        height: 50vh;
+    }
+
+    .hero::after{
+        height: 100%;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    /* MARKETING PLAN */
+
+    .marketing-plan-container2{
+        display: none;
+    }
+
+    .marketing-plan-mobile{
+        display: flex;
+    }
+
+    
+
+    .marketing-plan-container img{
+        width: 11rem;
+        height: 11rem;
+    }
+
+    /* SELLING PROCESS / BUYING PROCESS */
+
+    .process-main-container{
+        height: auto;
+    }
+
+    .selling-process-container, .buying-process-container{
+        height: 60vh;
+    }
+
+    .process-content{
+        width: 80%;
+    }
+
+    .selling{
+        flex-basis: 30%;
+    }
+
+    /* COMPANY PROFILE */
+
+    .experience{
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .company-profile h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* MARKETING STRATEGY */
+
+    .marketing-strategy-container{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    /* IDUSTRY PARTNERS */
+
+    .industry-partners-container{
+        flex-direction: column-reverse;
+    }
+
+    .partner-companies{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .partner-top{
+        margin-bottom: 2rem;
+    }
+
+    .partners-show-image{
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 3rem;
+    }
+
+    .partners-show-image img{
+        height: 100%;
+    }
+
+    /* GLOBAL PRESENCE */
+
+    .global-presence-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .global-presence-intro{
+        width: 100%;
+    }
+
+    .global-image{
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 3rem;
+    }
+
+    .global-image img{
+        height: 100%;
+    }
+
+    .global-companies img{
+        width: 20%;
+    }
+
+    /* OFFERS */
+
+    .offers{
+        padding: 6rem 0;
+    }
+
+    .offer img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .offer h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .offer p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .offers-content{
+        width: 55%;
+    }
+
+    .offers-show-image{
+        justify-content: flex-end;
+        width: 45%;
+    }
+
+    /* WORK WITH US */
+
+    .work-withus{
+        height: 50vh;
+    }
+
+    /* FOOTER */
+
+    .footer-reach-details{
+        word-break: break-all;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* HEADER */
+
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-container{
+        width: 16rem;
+    }
+
+    .navigation{
+        width: 20%;
+    }
+    .navigation .nav-links{
+        display: none;
+    }
+
+    .navigation{
+        align-items: center;
+    }
+
+    .navigation .mobile-menu-btn {
+        font-size: 2.5rem;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+
+    .mobile-nav i{
+        font-size: 2rem;
+        color: var(--font-light1);
+    }
+
+    /* MARKETING PLAN */
+
+    .marketing-plan-mobile{
+        display: none;
+    }
+
+    .marketing-plan-container2{
+        display: flex;
+    }
+
+    .left-content::after{
+        left: 0;
+    }
+    .right-content::after{
+        right: 0;
+    }
+
+    .desc-left, .desc-right{
+        bottom: 50%;
+        left: 50%;
+    }
+
+    .staging .staging-desc{
+        left: 60%;
+    }
+
+    /* ORIENTATION */
+
+    .marketing-plan-container2{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .left-content, .right-content{
+        width: 100%;
+        pointer-events: none;
+        
+    }
+
+    /* SELLING AND BUYING PROCESS */
+
+    .selling-process-container, .buying-process-container{
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .processes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .selling, .buying{
+        width: 60%;
+        padding: 1rem 0 2.5rem 0;
+    }
+
+    .selling .arrow, .buying .arrow{
+        top: 90%;
+        right: 50%;
+        transform: translateX(50%) rotateZ(90deg);
+    }
+
+    /* COMPANY PROFILE */
+
+    .company-profile h2{
+        margin-bottom: 2rem;
+    }
+
+    .content-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-desc, .experience-image,
+    .strategy-desc, .strategy-image{
+        width: 100%;
+    }
+
+    .experience-desc h3, .strategy-desc h3{
+        width: 20ch;
+        text-align: center;
+    }
+
+    .strategy-desc h3{
+        width: 25ch;
+        margin-top: 2rem;
+    }
+
+    .experience-desc p, .strategy-desc p{
+        margin-bottom: 2rem;
+    }
+
+    .strategy .content-container{
+        flex-direction: column-reverse;
+    }
+
+    /* TABLET */
+
+    .tablet-desc, .tablet-image{
+        width: 100%;
+    }
+
+    .tablet-desc h3{
+        text-align: center;
+    }
+
+    .tablet-desc p{
+        margin-bottom: 2rem;
+    }
+
+    /* MARKETING STRATEGY CONTAINER */
+
+    .marketing-strategy h2{
+        text-align: center;
+    }
+
+    .marketing-strategy h3{
+        margin-bottom: 2rem;
+    }
+
+    .marketing-strategy p{
+        text-align: left;
+    }
+
+    .company-exposure{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-exposure .exposure-container{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .exposure-container h4{
+        margin-bottom: 2rem;
+    }
+
+    /* OFFERS */
+
+    .offers-container{
+        flex-direction: column-reverse;
+    }
+
+    .offers-content{
+        width: 100%;
+    }
+
+    .offers-show-image{
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+
+    .offers-show-image img{
+        width: 50%;
+        transform: rotate(-90deg);
+    }
+
+    /* FOOTER */
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left-column, .footer-right-column{
+        width: 100%;
+    }
+
+    .footer-left-column{
+        margin-bottom: 2rem;
+    }
+
+    .footer-left-column{
+        padding-right: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left-column .footer-desc{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    /* MOBILE BTN */
+
+    .navigation .mobile-menu-btn {
+        font-size: 1.5rem;
+    }
+
+    /* MARKETING PLAN */
+
+    .marketing-plan h2{
+        font-size: 1.5rem;
+    }
+
+    .marketing-det h3{
+        font-size: 1.2rem;
+    }
+
+    .marketing-det p{
+        font-size: 1rem;
+    }
+
+    .process-content h2{
+        font-size: 1.5rem;
+    }
+
+
+    /* HERO */
+    .hero{
+        height: 90vh;
+    }
+
+    /* HEADER */
+
+    .header{
+        padding: 1.5rem 0;
+    }
+
+    .logo-container{
+        width: 10rem;
+    }
+
+    
+    /* SEARCH/ BOOK */
+
+    .search-wrapper{
+        width: 80%;
+    }
+
+    .search-book-form{
+        width: 80%;
+    }
+    .appointment{
+        display: none;
+    }
+
+    .appointment-mobile{
+        display: initial;
+        color: rgb(216, 216, 216);
+    }
+
+    .appointment-mobile i{
+        font-size: 1.5rem;
+    }
+
+    /* COMPANY PROFILE */
+
+    .company-profile h2{
+        font-size: 1.5rem;
+    }
+
+    .content-container h3{
+        font-size: 1.2rem;
+    }
+
+    /* MARKETING STRATEGY */
+
+    .marketing-strategy h2{
+        font-size: 1.5rem;
+    }
+
+    .marketing-strategy h3{
+        font-size: 1.2rem;
+    }
+
+    .offer h3{
+        font-size: 1.2rem;
+    }
+
+    .offer p{
+        font-size: 1rem;
+    }
+
+    /* WORK WIH US */
+    .work-withus{
+        margin-bottom: 2rem;
+    }
+
+    .work-withus-content{
+        width: 80%;
+    }
+
+    .work-withus-content h2{
+        font-size: 1.5rem;
+    }
+
+    .work-withus-content p{
+        font-size: 1rem;
+    }
+
+    .work-withus-content button{
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    /* FOOTER */
+
+    .footer-container{
+        padding: 0;
+        align-items: center;
+    }
+
+    .footer-left-column{
+        padding: 0;
+        width: 90%;
+    }
+
+    .footer-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-desc h3{
+        font-size: 1.5rem;
+    }
+
+    .newsletter{
+        font-size: 1.5rem;
+        border-radius: 0px;
+    }
+
+    .subscribe-btn{
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .footer-reach-details{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-address{
+        width: 60%;
+        padding-left: 1rem;
+    }
+
+    .footer-contacts{
+        width: 45;
+    }
+
+    .footer-address h4, .footer-contacts h4{
+        font-size: 1rem;
+    }
+
+    .footer-address span, .footer-contacts span{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .hero h1{
+        font-size: 3rem;
+    }
+
+    .marketing-plan-container, .marketing-plan-container2{
+        width: 90%;
+    }
+
+    /* PROCESS */
+
+    .selling, .buying{
+        width: 85%;
+    }
+
+    .buying .arrow, .selling .arrow{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    /* PROFILE */
+
+    .experience, .strategy, .tablet{
+        width: 85%;
+    }
+
+    /* MARKETING STRATEGY */
+    .marketing-strategy{
+        width: 85%;
+    }
+
+    /* INDUSTRY PARTNERS */
+
+    .industry-partners-container{
+        width: 85%;
+    }
+
+    .global-presence-container{
+        width: 85%;
+    }
+
+    .offers{
+        width: 85%;
+    }
+
+    /* FOOTER */
+
+    .footer-reach-details{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-address, .footer-contacts{
+        width: 85%;
+        padding: 0;
+    }
+
+    .footer-address{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 376px){
+
+    .hero{
+        height: 82vh;
+    }
+
+    /* MARKETING PLAN */
+
+    .marketing-plan h2{
+        width: 15ch;
+        text-align: center;
+    }
+
+    .marketing-det img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .marketing-det h3{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .marketing-det p{
+        font-size: 1rem;
+        width: 16ch;
+        text-align: center;
+    }
+    
+    .marketing-plan-container, .marketing-plan-container2{
+        width: 100%;
+    }
+
+    /* COMPANY PROFILE */
+    .content-container h3{
+        margin-bottom: 2rem;
+        width: 20ch;
+    }
+
+    /* INDUSTRY PARTNERS */
+
+    .partner-top img{
+        margin-bottom: 2rem;
+    }
+
+    .partner-bot-images img{
+        width: 8rem;
+    }
+
+    .global-companies img{
+        width: 30%;
+    }
+
+    .partner-bot-images, .partner-bot-desc h4{
+        margin-bottom: 2rem;
+    }
+
+    /* WORK WITH US */
+
+    .work-withus{
+        height: auto;
+    }
+
+    .work-withus-content{
+        width: 90%;
+        padding: 3rem 0;
+    }
+
+    .work-withus button{
+        font-size: .9rem;
+    }
+
+    /* FOOTER */
+
+    .footer-logos img{
+        width: 3rem;
+    }
+
+    .sub-footer h5{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+}
